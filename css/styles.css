@@ -150,7 +150,6 @@ body {
   align-items: center;
 }
 
-/*  */
 
 .hero,
 .footer {
@@ -160,6 +159,8 @@ body {
 .hero-padding {
   padding-top: 200px;
   padding-bottom: 200px;
+
+  width: 696px;
 }
 
 .hero-tittle {
