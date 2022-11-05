@@ -32,6 +32,8 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 body {
@@ -50,8 +52,6 @@ body {
 }
 
 .header {
-  /* padding-top: 24px;
-  padding-bottom: 25px; */
   border-bottom-color: var(--border-color-header);
   border-bottom-style: solid;
   border-bottom-width: 1px;
@@ -72,6 +72,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 
   padding-top: 24px;
   padding-bottom: 25px;
@@ -86,6 +87,7 @@ body {
 
 .nav-logo {
   color: var(--nav-logo-color);
+  letter-spacing: 0.03em;
 }
 
 .header-nav-link,
@@ -192,9 +194,11 @@ body {
   font-size: 16px;
   line-height: 1.88;
   background-color: var(--accent-color);
-  width: 216px;
-  height: 50px;
   border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .hero-button,
@@ -279,6 +283,7 @@ body {
 .team-tittle {
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--first-color);
 }
 
@@ -343,6 +348,7 @@ body {
 
 .footer-logo-end {
   color: var(--accent-color-text);
+  letter-spacing: 0.03em;
 }
 
 .footer-contacts-address,
