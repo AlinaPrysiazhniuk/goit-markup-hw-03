@@ -30,6 +30,10 @@ ul {
   padding: 0;
 }
 
+li {
+  display: block;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -102,7 +106,6 @@ body {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-
   color: var(--first-color);
 }
 
@@ -152,7 +155,6 @@ body {
   align-items: center;
 }
 
-
 .hero,
 .footer {
   background-color: var(--hero-footer-background-color);
@@ -161,8 +163,6 @@ body {
 .hero-padding {
   padding-top: 200px;
   padding-bottom: 200px;
-
-  /* width: 696px; */
 }
 
 .hero-tittle {
@@ -298,13 +298,14 @@ body {
   background-color: var(--team-background-color);
 }
 
-.team-padding {
+
+.team-item {
   background-color: var(--accent-color-text);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team {
   padding-top: 94px;
-  /* padding-bottom: 94px; */
 }
 
 .team-list {
@@ -422,6 +423,7 @@ body {
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
+  letter-spacing: 0.03em;
   color: var(--first-color);
   background-color: var(--portfolio-button-color);
   border-radius: 4px;
