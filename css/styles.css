@@ -162,11 +162,14 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
 
-  width: 696px;
+  /* width: 696px; */
 }
 
 .hero-tittle {
   margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 696px;
 
   font-weight: 900;
   font-size: 44px;
@@ -295,6 +298,10 @@ body {
   background-color: var(--team-background-color);
 }
 
+.team-padding {
+  background-color: var(--accent-color-text);
+}
+
 .team {
   padding-top: 94px;
   /* padding-bottom: 94px; */
@@ -317,6 +324,7 @@ body {
 .team-position {
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .team-name {
@@ -468,3 +476,5 @@ body {
 .portfolio-filters-list {
   margin-bottom: 50px;
 }
+
+
