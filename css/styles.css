@@ -179,6 +179,7 @@ body {
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
+  border-color: transparent;
 }
 
 .hero-tittle,
@@ -425,6 +426,7 @@ body {
   background-color: var(--portfolio-button-color);
   border-radius: 4px;
   padding: 6px 25px;
+  border-color: transparent;
 }
 
 .portfolio-filters-button:hover,
@@ -475,4 +477,5 @@ body {
 .portfolio-filters-list {
   margin-bottom: 50px;
 }
+
 
